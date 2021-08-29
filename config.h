@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus-Regular:pixelsize=11:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "Iosevka-Regular:pixelsize=20:antialias=true:autohint=true";
+static int borderpx = 100;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -99,31 +99,31 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#E1E4E1",
+	"#AD1D1D",
+	"#000000",
+	"#AD1D1D",
+	"#9C9C9C",
+	"#000000",
+	"#AD1D1D",
+	"#000000",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#000000",
+	"#AD1D1D",
+	"#000000",
+	"#000000",
+	"#000000",
+	"#000000",
+	"#000000",
+	"#AD1D1D",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"black",
+	"#AD1D1D",
+	"#000000",
+	"#E1E4E1",
 };
 
 
